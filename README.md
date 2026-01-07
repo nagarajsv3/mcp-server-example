@@ -46,7 +46,7 @@ https://github.com/modelcontextprotocol/python-sdk
    INFO:     Application startup complete.
    INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 
-2. In Terminal 2 , Run MCP Dev Inspector
+2. In Terminal 2 , Run MCP Dev Inspector mcp dev src/server_greet_streamablehttp.py
    Starting MCP inspector...
    ⚙️ Proxy server listening on localhost:6277
    🔑 Session token: 14fd70ea79ade6fa5027154a714f64830663c236625245239386a8f49446119e
@@ -60,3 +60,8 @@ Choose Transport type as Streamable Http
 URL http://localhost:8000/mcp
 Connect -> Tools -> Test
 
+
+
+Reference :
+https://platform.openai.com/docs/guides/retrieval
+https://platform.openai.com/storage/files/file-8rnjAWTRmwWxbCb91mwp5w
